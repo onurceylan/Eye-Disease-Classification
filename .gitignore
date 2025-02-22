@@ -1,0 +1,38 @@
+# Python cache ve derlenmiş dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal ortam (venv)
+venv/
+env/
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Paket yönetimi dosyaları
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoint'leri
+.ipynb_checkpoints/
+
+# Günlük (log) dosyaları
+*.log
+
+# Çıktı dosyaları ve geçici dosyalar
+*.out
+*.tmp
+*.swp
+
+# Test coverage raporları
+.coverage
+htmlcov/
+nosetests.xml
+
+# Docker ve sanallaştırma
+*.dockerignore
+*.vagrant
